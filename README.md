@@ -22,6 +22,8 @@ Additional packages:
  * [memcached](http://memcached.org/) 1.4.15
  * [redis](http://redis.io/) 2.6.13
 
+Box last updated: 05.06.2013
+
 ### Vagrantfile
 Vagrantfile contains following information:
  * port forwarding from host 8080 to quest 80
