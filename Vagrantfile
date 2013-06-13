@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "centos64-lnpp"
-  config.vm.box_url = "https://dl.dropbox.com/s/1vx4gd0jjbv69dr/SportIS-CentOS-6.4.box"
+  config.vm.box_url = "https://dl.dropbox.com/s/1vx4gd0jjbv69dr/CentOS-6.4-lnpp.box"
 
   config.vm.network :forwarded_port, guest: 80, host: 8080
   config.vm.network :forwarded_port, guest: 3306, host: 3306
