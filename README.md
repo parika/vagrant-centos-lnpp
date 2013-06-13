@@ -31,7 +31,7 @@ Vagrantfile contains following information:
  * nfs mount from host ../srv to quest /srv
  * nginx start (as nginx root directory will be mounted with nfs)
 
-Box will automatically be downloaded from [dropbox](https://dl.dropbox.com/s/1vx4gd0jjbv69dr/SportIS-CentOS-6.4.box)
+Box will automatically be downloaded from [Dropbox](https://dl.dropbox.com/s/6r4t3grdnhoavb9/CentOS-6.4-lnpp.box).
 
 ### Usage:
 
