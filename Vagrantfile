@@ -6,10 +6,11 @@ Vagrant.configure("2") do |config|
   config.vm.box_url = "https://dl.dropbox.com/s/6r4t3grdnhoavb9/CentOS-6.4-lnpp.box"
 
   config.vm.network :forwarded_port, guest: 80, host: 8080
+  config.vm.network :forwarded_port, guest: 8080, host: 8181
   config.vm.network :forwarded_port, guest: 3306, host: 3306
   config.vm.network :private_network, ip: "192.168.3.3"
 
   config.vm.synced_folder "srv", "/srv", :nfs => true
 
-  config.vm.provision :shell, :inline => "service nginx start"
+  config.vm.provision :shell, :inline => "service nginx restart"
 end
