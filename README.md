@@ -6,8 +6,8 @@
 Given box is built on CentOS 6.4 x86_64 minimal - [read more](http://wiki.centos.org/Manuals/ReleaseNotes/CentOSMinimalCD6.4)
 
 Additional packages:
- * [nginx](http://nginx.org/) 1.4.1
- * [php](http://www.php.net/) 5.4.17
+ * [nginx](http://nginx.org/) 1.4.2
+ * [php](http://www.php.net/) 5.4.19
   * fpm
   * mbstring
   * xml
@@ -18,11 +18,11 @@ Additional packages:
   * apc 3.1.15 (pecl)
   * memcache 3.0.8 (pecl)
   * redis 2.2.3 (pecl)
- * [percona-server](http://www.percona.com/software/percona-server) 5.5.31
+ * [percona-server](http://www.percona.com/software/percona-server) 5.5.33
  * [memcached](http://memcached.org/) 1.4.15
- * [redis](http://redis.io/) 2.6.13
+ * [redis](http://redis.io/) 2.6.15
 
-Box last updated: 07.07.2013
+Box last updated: 06.09.2013
 
 ### Vagrantfile
 Vagrantfile contains following information:
