@@ -27,8 +27,8 @@ Box last updated: 25.09.2013
 
 ### Vagrantfile
 Vagrantfile contains following information:
- * port forwarding from host 8080 to quest 80
- * port forwarding from host 8181 to quest 8080
+ * port forwarding from host 8080 to quest 80 (document root is set to /srv/www/default)
+ * port forwarding from host 8181 to quest 8080 (document root is set to /srv/www/working)
  * port forwarding from host 3306 to quest 3306
  * nfs mount from host ../srv to quest /srv
  * nginx restart (as additional nginx conf will be included from mounted nfs folder)
