@@ -1,4 +1,4 @@
-# vagrant-centos64-lnpp
+# vagrant-centos-lnpp
 
 **LNPP** - **l**inux, **n**ginx, **p**ercona(-server), **p**hp(-fpm)
 

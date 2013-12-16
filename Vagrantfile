@@ -1,14 +1,18 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-Vagrant.configure("2") do |config|
-  config.vm.box = "centos64-lnpp"
-  config.vm.box_url = "https://dl.dropbox.com/s/6r4t3grdnhoavb9/CentOS-6.4-lnpp.box"
+# Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "lnpp"
+  # config.vm.box_url = "http://domain.com/path/to/above.box"
+
+  config.vm.network :private_network, ip: "192.168.2.2"
 
   config.vm.network :forwarded_port, guest: 80, host: 8080
   config.vm.network :forwarded_port, guest: 8080, host: 8181
   config.vm.network :forwarded_port, guest: 3306, host: 3306
-  config.vm.network :private_network, ip: "192.168.3.3"
 
   config.vm.synced_folder "srv", "/srv", :nfs => true
 
