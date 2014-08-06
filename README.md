@@ -27,7 +27,7 @@ Additional packages:
  * [memcached](http://memcached.org/) 1.4.15
  * [redis](http://redis.io/) 2.8.2
 
-Box last updated: 09.12.2013
+Box last updated: 09.12.2013 (Should be updated to CentOS 7)
 
 ### Vagrantfile
 Vagrantfile contains following information:
